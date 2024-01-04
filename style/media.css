@@ -1,0 +1,129 @@
+@media(max-width:1130px){
+    .shoes__box{
+        flex-direction: column;
+        gap: 30;
+        align-items: center;
+    }
+}
+
+@media(max-width:900px) {
+    .intro{
+        height: 500px;
+    }
+    .form{
+        width: 300px;
+    }
+}
+
+@media(max-width:820px) {
+    .nav{
+        padding-top: 15px;
+    }
+    .nav__info{
+        flex-direction: column;
+    }
+    .nav__link{
+        padding: 18px 15px;
+    }
+    .nav__list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:800px){
+    .footer{
+        padding: 15px 0;
+    }
+    .footer__info{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .shoes__left,
+    .shoes__right{
+        max-width: 450px;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+    }
+    .shoes__title{
+        margin: 10px 0;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .shoes__text{
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .shoes__card{
+        width: 215px;
+        padding: 10px;
+    }
+    .shoes__card-img{
+        width: 60px;
+        height: 60px;
+    }
+    .shoes__card-img img{
+        width: 50px;
+    }
+    .shoes__card-title{
+        margin: 10px 0;
+        font-size: 18px;
+        line-height: 100%;
+    }
+    .shoes__card-text{
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .intro{
+        height: 450px;
+    }
+    .shoes__box{
+        gap: 15px;
+        transform: translateY(-15px);
+    }
+}
+
+@media(max-width:680px){
+    .intro{
+        height: 400px;
+    }
+    .nav__logo img{
+        width: 80px;
+    }
+    .nav__link{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .intro__title{
+        font-size: 40px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .intro__text{
+        font-size: 16px;
+    }
+}
+@media(max-width:370px){
+    .shoes__title{
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .shoes__text{
+        font-size: 12px;
+    }
+    .form{
+        width: 250px;
+    }
+    .footer__input{
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+    .footer__btn{
+        padding: 6px 0;
+    }
+    .footer__link{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+}
